@@ -1,6 +1,9 @@
+'''
+Code fully based on https://github.com/sjchoi86/yet-another-mujoco-tutorial-v2
+'''
+
 import numpy as np
 import mujoco
-from scipy.spatial.transform import Rotation as R
 
 def r2w(R):
     """

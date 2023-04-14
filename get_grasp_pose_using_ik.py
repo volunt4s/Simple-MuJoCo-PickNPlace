@@ -2,7 +2,7 @@ import numpy as np
 import mujoco
 from scipy.spatial.transform import Rotation as R
 
-from ik_module import solve_IK
+from src.ik_module import solve_IK
 
 def get_z_rot_mat(z_deg):
     z_rad = np.deg2rad(z_deg)
